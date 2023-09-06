@@ -6,3 +6,8 @@ body {
    justify-content: center;
    align-items: center;
 }
+
+.page-name {
+   display: flex;
+   align-items: center;
+}
