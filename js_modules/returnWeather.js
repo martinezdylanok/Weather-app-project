@@ -1,7 +1,14 @@
-async function returnWeather() {
-   const RESPONSE = await fetch("https://api.weatherapi.com/v1/current.json?key=35a83ae1482344c69fa83617230409&q=copenhagen", { mode: "cors" });
-   const DATA = await RESPONSE.json();
-   console.log(DATA);
+function returnWeather(event) {
+   event.preventDefault();
+   const INPUT = document.getElementById("text");
+   const SEARCH_BUTTON = document.querySelector("button");
+
+   SEARCH_BUTTON.addEventListener("click", async () => {
+      const KEY_WORD = INPUT.value;
+      const RESPONSE = await fetch(`https://api.weatherapi.com/v1/current.json?key=35a83ae1482344c69fa83617230409&q=${KEY_WORD}`, { mode: "cors" });
+      const DATA = await RESPONSE.json();
+      console.log(DATA);
+   });
 }
 
 export default returnWeather;
