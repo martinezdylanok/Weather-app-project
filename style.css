@@ -10,4 +10,9 @@ body {
 .page-name {
    display: flex;
    align-items: center;
+   gap: 5px;
+}
+
+.page-name h1 {
+   font: 400 italic 2rem "system-ui";
 }
