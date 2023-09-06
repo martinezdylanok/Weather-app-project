@@ -1,3 +1,5 @@
+import DISPLAY_DATA from "./displayData.js";
+
 function returnWeather(event) {
    event.preventDefault();
    const INPUT = document.getElementById("text");
@@ -7,7 +9,7 @@ function returnWeather(event) {
       const KEY_WORD = INPUT.value;
       const RESPONSE = await fetch(`https://api.weatherapi.com/v1/current.json?key=35a83ae1482344c69fa83617230409&q=${KEY_WORD}`, { mode: "cors" });
       const DATA = await RESPONSE.json();
-      console.log(DATA);
+      DISPLAY_DATA(DATA);
    });
 }
 
