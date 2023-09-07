@@ -68,3 +68,21 @@ button {
 button:hover {
    color: rgb(202, 202, 202);
 }
+
+.weather-card {
+   display: none;
+   padding: 2.5rem;
+   background-color: rgba(162, 72, 187, 0.95);
+   border-radius: .5rem;
+   font: 500 normal 1.7rem "Roboto";
+   box-shadow: 1px 0px 11px -1px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 1px 0px 11px -1px rgba(0,0,0,0.75);
+   -moz-box-shadow: 1px 0px 11px -1px rgba(0,0,0,0.75);
+}
+
+.weather-card.active {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
