@@ -55,3 +55,16 @@ form {
    font: 400 normal 1rem "system-ui";
    color: rgba(255, 255, 255, 0.6);
 }
+
+button {
+   height: 35px;
+   background-color: rgb(26, 25, 25);
+   color: white;
+   border-radius: .2rem;
+   border: none;
+   cursor: pointer;
+}
+
+button:hover {
+   color: rgb(202, 202, 202);
+}
