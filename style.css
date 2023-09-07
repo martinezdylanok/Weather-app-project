@@ -86,3 +86,13 @@ button:hover {
    align-items: center;
    gap: 10px;
 }
+
+.city {
+   font: 600 normal 2.8rem "system-ui";
+   color: white;
+}
+
+.celcius {
+   font-size: 2.5rem;
+   margin-bottom: 20px;
+}
