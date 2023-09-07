@@ -29,6 +29,14 @@ header {
    fill: white;
 }
 
+form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   padding: 2rem;
+}
+
 #text {
    width: 200px;
    padding-left: 5px;
