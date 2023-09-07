@@ -19,3 +19,12 @@ header {
    gap: 5px;
    padding: 1.5rem;
 }
+
+.page-name h1 {
+   font: 600 italic 3rem "system-ui";
+   color: rgb(26, 25, 25);
+}
+
+.page-name svg {
+   fill: white;
+}
