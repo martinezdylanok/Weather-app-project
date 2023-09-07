@@ -11,3 +11,11 @@ header {
    width: 100%;
    background-color: rgba(162, 72, 187, 0.95);
 }
+
+.page-name {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   padding: 1.5rem;
+}
