@@ -28,3 +28,13 @@ header {
 .page-name svg {
    fill: white;
 }
+
+#text {
+   width: 200px;
+   padding-left: 5px;
+   height: 35px;
+   background-color: rgba(162, 72, 187, 0.95);
+   border: none;
+   border-radius: .2rem;
+   font: 400 normal 1rem "system-ui";
+}
