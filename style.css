@@ -7,12 +7,7 @@ body {
    align-items: center;
 }
 
-.page-name {
-   display: flex;
-   align-items: center;
-   gap: 5px;
-}
-
-.page-name h1 {
-   font: 400 italic 2rem "system-ui";
+header {
+   width: 100%;
+   background-color: rgba(162, 72, 187, 0.95);
 }
