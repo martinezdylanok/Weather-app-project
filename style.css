@@ -38,3 +38,12 @@ header {
    border-radius: .2rem;
    font: 400 normal 1rem "system-ui";
 }
+
+#text:focus {
+   outline: none;
+}
+ 
+#text::placeholder {
+   font: 400 normal 1rem "system-ui";
+   color: rgba(255, 255, 255, 0.6);
+}
